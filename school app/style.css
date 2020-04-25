@@ -1,7 +1,21 @@
 .title {
-    color: crimson;
+    color: #801099;
     border: solid;
+    margin-top: 40px;
 }
 .image {
     border: solid;
+    margin-top: 50px;
 }
+a  {
+    color: #004070;
+}
+a :checked{
+    color: #007090;
+}
+
+.about img {
+ border: solid;
+ margin-top: 10px;
+}
+
