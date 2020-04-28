@@ -1,21 +1,41 @@
-.title {
+h1 {
     color: #801099;
-    border: solid;
-    margin-top: 40px;
-}
-.image {
-    border: solid;
-    margin-top: 50px;
-}
-a  {
-    color: #004070;
-}
-a :checked{
-    color: #007090;
-}
 
+    margin-top: 10px;
+    margin-left: 500px;
+}
+a {
+    margin-top: 10px;
+}
+.image{
+    position: relative;
+}
+.image img {
+    border: solid;
+    
+}
+.image h1 {
+    position: absolute;
+    color:#000000;
+    margin-top: 250px;
+    margin-left:430px;
+    transform: translate(50%,50%);
+    opacity: 0;
+
+}
+.image:hover h1 {
+    opacity: 1;
+}
 .about img {
  border: solid;
  margin-top: 10px;
+ opacity: 1;
+}
+.about{
+    position: relative;
 }
 
+
+.about:hover img {
+    opacity: 0.33;
+}
